@@ -36,6 +36,16 @@ https://www.heroku.com
 
 ### Se riporto modifiche locali al codice ripetere Step 4 e 5
 
+### Se ho già in remoto su heroku una link app
+
+`$ cd [ my_app ]`
+
+`$ git init`
+
+`$ heroku git:remote -a [ name_remote_app_on_heroku ]`
+
+`$ git push heroku master`
+
 ### Visita l'app deployata
 
 https://vast-retreat-72309.herokuapp.com/
